@@ -7,6 +7,11 @@ target 'mypepp' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Facebook'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Phone'
 
   # Pods for mypepp
 
