@@ -14,6 +14,8 @@ target 'mypepp' do
   pod 'FirebaseUI/Phone'
   pod 'Fabric'
   pod 'Crashlytics'
+  pod 'GoogleAPIClient/Calendar'
+  pod 'GTMOAuth2'
 
   # Pods for mypepp
 

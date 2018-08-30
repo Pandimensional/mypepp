@@ -50,6 +50,11 @@ PODS:
     - GoogleSignIn (~> 4.0)
   - FirebaseUI/Phone (5.2.0):
     - FirebaseUI/Auth
+  - GoogleAPIClient/Calendar (1.0.5):
+    - GoogleAPIClient/Core
+    - GTMSessionFetcher (~> 1.1)
+  - GoogleAPIClient/Core (1.0.5):
+    - GTMSessionFetcher (~> 1.1)
   - GoogleAppMeasurement (5.1.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2.0)
     - GoogleUtilities/MethodSwizzler (~> 5.2.0)
@@ -114,8 +119,10 @@ DEPENDENCIES:
   - FirebaseUI/Facebook
   - FirebaseUI/Google
   - FirebaseUI/Phone
+  - GoogleAPIClient/Calendar
   - GoogleMaps
   - GooglePlaces
+  - GTMOAuth2
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -131,6 +138,7 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseInstanceID
     - FirebaseUI
+    - GoogleAPIClient
     - GoogleAppMeasurement
     - GoogleMaps
     - GooglePlaces
@@ -154,6 +162,7 @@ SPEC CHECKSUMS:
   FirebaseCore: 3a97432acb324b439fbed338e642f9cbb516a63d
   FirebaseInstanceID: ea5af6920d0a4a29b40459d055bebe4a6c1333c4
   FirebaseUI: 9dfa423b6f1b73737ae8ab62692c1c0a8886186d
+  GoogleAPIClient: 77df755d41d70ee5a99b7b752614fbb439f19438
   GoogleAppMeasurement: f7507b39b70ad0bd80b3d81518b2f43868974307
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
   GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
@@ -164,6 +173,6 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 81a8122c8da9f5f4650b4553ac825d6bcb20c479
+PODFILE CHECKSUM: 6608a7a4119081c3e5df2a1f3355c9108702b928
 
 COCOAPODS: 1.5.3
