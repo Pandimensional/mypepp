@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMaps
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -15,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Pass: UITextField!
     @IBOutlet weak var LoginBtn: UIButton!
+    @IBOutlet weak var RegBtn: UIButton!
     //var MapView: GMSMapView?
     
     override func viewDidLoad() {
@@ -59,6 +61,18 @@ class ViewController: UIViewController {
         Pass.text = sender.text
     }
     
+    @IBAction func RegBtnClick(_ sender: Any) {
+        Auth.auth().createUser(withEmail: Email.text, password: Pass.text) { (authResult, error) in
+            // ...
+            guard let user = authResult?.user else { return }
+        }
+    }
+    
+    @IBAction func LoginBtnClicked(_ sender: Any) {
+        Auth.auth().signIn(withEmail: Email.text, password: Pass.text) { (user, error) in
+            // ...
+        }
+    }
     
 }
 

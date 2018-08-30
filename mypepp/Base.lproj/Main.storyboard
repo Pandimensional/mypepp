@@ -59,14 +59,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login" image="MiscBigButton"/>
                                 <connections>
+                                    <action selector="LoginBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dNO-Hw-fFI"/>
                                     <segue destination="a8v-3X-2gy" kind="show" id="EUh-Pb-bpJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8R-bx-SAZ">
                                 <rect key="frame" x="42" y="501" width="307" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login" image="MiscBigButton"/>
+                                <state key="normal" title="RegBtn" image="MiscBigButton"/>
                                 <connections>
+                                    <action selector="RegBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCJ-nw-xhv"/>
                                     <segue destination="GWD-7k-k62" kind="show" id="02o-Ru-Nwt"/>
                                 </connections>
                             </button>
@@ -78,6 +80,7 @@
                         <outlet property="Email" destination="FBI-cG-DRm" id="hTk-Ia-YoS"/>
                         <outlet property="LoginBtn" destination="p8X-OU-4U0" id="t3b-OI-n0g"/>
                         <outlet property="Pass" destination="vwL-Fq-zE6" id="zXG-dC-ZdP"/>
+                        <outlet property="RegBtn" destination="W8R-bx-SAZ" id="2NB-ya-sbS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -700,7 +703,7 @@
         <image name="summarizetrainings" width="299" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2lY-a0-VBw"/>
+        <segue reference="EUh-Pb-bpJ"/>
         <segue reference="X6E-MO-qDd"/>
         <segue reference="s4d-pC-71G"/>
     </inferredMetricsTieBreakers>
