@@ -400,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypepp/Pods-mypepp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mypepp/Pods-mypepp-frameworks.sh\"\n\"${PODS_ROOT}/Fabric/run\" e8328aa8c7f328909ffe3607e6972c15374b7549 0c55bf4e1c29bfab6a77e7cfce76e1535285552baea79506549ee495d72bbdad";
 			showEnvVarsInLog = 0;
 		};
 		DBF86DC8E1E86B245C046EFC /* [CP] Check Pods Manifest.lock */ = {

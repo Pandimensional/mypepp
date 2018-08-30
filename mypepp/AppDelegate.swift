@@ -10,6 +10,8 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 import Firebase
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSServices.provideAPIKey("AlzaSyBhQFTw0eEQd_WmbfZGC5WLKsjcO2a7KA")
         GMSPlacesClient.provideAPIKey("AlzaSyBhQFTw0eEQd_WmbfZGC5WLKsjcO2a7KA")
         FirebaseApp.configure()
+        Fabric.with([Crashlytics.self])
         return true
     }
 

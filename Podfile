@@ -12,6 +12,8 @@ target 'mypepp' do
   pod 'FirebaseUI/Facebook'
   pod 'FirebaseUI/Google'
   pod 'FirebaseUI/Phone'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   # Pods for mypepp
 

@@ -48,5 +48,19 @@
 		<string>googlechromes</string>
 		<string>comgooglemaps</string>
 	</array>
+  <key>Fabric</key>
+  <dict>
+    <key>APIKey</key>
+    <string>e8328aa8c7f328909ffe3607e6972c15374b7549</string>
+    <key>Kits</key>
+    <array>
+      <dict>
+        <key>KitInfo</key>
+        <dict/>
+        <key>KitName</key>
+        <string>Crashlytics</string>
+      </dict>
+    </array>
+  </dict>	
 </dict>
 </plist>
