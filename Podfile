@@ -16,7 +16,7 @@ target 'mypepp' do
   pod 'Crashlytics'
   pod 'GoogleAPIClient/Calendar'
   pod 'GTMOAuth2'
-
+  pod 'Google/SignIn'
   # Pods for mypepp
 
   target 'mypeppTests' do
